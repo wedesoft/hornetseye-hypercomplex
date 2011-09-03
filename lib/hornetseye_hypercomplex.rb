@@ -16,5 +16,18 @@
 
 require 'malloc'
 require 'multiarray'
+
+class Numeric
+  
+  def jmag
+    0
+  end
+  
+  def kmag
+    0
+  end
+
+end
+
 require 'hornetseye-hypercomplex/hypercomplex'
 
