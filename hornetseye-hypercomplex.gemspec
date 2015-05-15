@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.extensions = %w{Rakefile}
   s.has_rdoc = 'yard'
   s.extra_rdoc_files = []
-  s.rdoc_options = %w{--no-private}
   s.add_dependency %<malloc>, [ '~> 1.4' ]
   s.add_dependency %<multiarray>, [ '~> 1.0' ]
 end
